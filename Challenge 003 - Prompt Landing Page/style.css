@@ -1,0 +1,21 @@
+body {
+  background-color: #6600db;
+}
+
+.yellow {
+  color: #dbd700 !important;
+}
+
+.darker-yellow {
+  color: #dcb307 !important;
+}
+
+.orange-bg {
+  background-color: #dc8001 !important;
+}
+
+button {
+  font-weight: bold !important;
+  background-color: #dbd700 !important;
+  color: purple !important;
+}
