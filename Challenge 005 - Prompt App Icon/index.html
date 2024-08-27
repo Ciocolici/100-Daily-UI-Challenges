@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian App Icon</title>
+    <style>
+      body {
+        background-color: lightgray;
+      }
+      #flexbox-container {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      .grid-container {
+        display: grid;
+        background-color: #000;
+        gap: 9px;
+        grid-template: 207px 1fr / 1fr;
+      }
+      #main-container {
+        height: 374px;
+        width: 374px;
+      }
+
+      #top-container {
+        grid-template: 1fr / 160px 1fr;
+      }
+
+      #first-box {
+        background-color: #e72f24;
+      }
+
+      #second-box,
+      #third-box,
+      #fourth-box,
+      #sixth-box,
+      #seventh-box,
+      #tenth-box {
+        background-color: #f0f1ec;
+      }
+
+      #bottom-container {
+        grid-template: 65px 82.5px 10px / 160px 99px 76.5px 25px;
+      }
+
+      #third-box,
+      #fourth-box,
+      #sixth-box {
+        grid-row: span 2;
+      }
+
+      #fourth-box {
+        grid-column: span 2;
+      }
+
+      #fifth-box {
+        background-color: #004592;
+      }
+
+      #sixth-box {
+        border-color: #000;
+        border-top: 10px;
+        border-top-style: solid;
+      }
+
+      #eighth-box {
+        background-color: #f9d01e;
+      }
+
+      #nineth-box {
+        background-color: #232629;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="flexbox-container">
+      <div class="grid-container" id="main-container">
+        <div class="grid-container" id="top-container">
+          <div id="first-box"></div>
+          <div id="second-box"></div>
+        </div>
+        <div class="grid-container" id="bottom-container">
+          <div id="third-box"></div>
+          <div id="fourth-box"></div>
+          <div id="fifth-box"></div>
+          <div id="sixth-box"></div>
+          <div id="seventh-box"></div>
+          <div id="eighth-box"></div>
+          <div id="nineth-box"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
