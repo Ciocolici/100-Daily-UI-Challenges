@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-image: url("yellow-texture.jpg");
+}
+
+h1 {
+  color: #804403;
+  font-family: "Handjet", sans-serif;
+}
+
+h2,
+p,
+li {
+  color: #bd6100;
+  font-family: "Handjet", sans-serif;
+}
